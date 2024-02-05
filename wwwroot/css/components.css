@@ -1,0 +1,32 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4, dt, dd, col-md-4, col-sm-2, col-sm-10, table, th, td, label {
+    color: white;
+}
+
+@font-face {
+    font-family: 'Star Jedi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Star Jedi'), local('StarJedi-Regular'), url(http://allfont.net/cache/fonts/star-jedi_108a0c1f596b5c0a80628b4566a9f336.woff) format('woff'), url(http://allfont.net/cache/fonts/star-jedi_108a0c1f596b5c0a80628b4566a9f336.ttf) format('truetype');
+}
+
+.classname {
+    font-family: 'Star Jedi';
+}
+#content {
+    margin-top: 50px;
+    height: 600px;
+}
+video {
+    height: 600px;
+    width: 1000px;
+}
+//TODO
+//czcionka
+//database view dla wypozyczeń//do tw wypozyczeń
+//z filmu listy- opcja wypozycz i ng-pluralize details tez wypozycz opcja musi byc
+moze ddoac poprstu bdo video filmu nazwe i tak samo nazwe usera zeby razem trzmac wbr tbei?
